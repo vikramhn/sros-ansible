@@ -1,0 +1,7 @@
+---
+
+- hosts: all
+  gather_facts: False
+  tasks:
+    - debug: var=inventory_hostname
+    - debug: var=version
